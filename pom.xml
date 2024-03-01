@@ -19,13 +19,23 @@
 <configuration>
 <archive>
   <manifest>
-   <mainClass>main</mainClass>
+   <mainClass>Main</mainClass>
   </manifest>
 </archive>
 <source>${java.version}</source>
 <target>${java.version}</target>
 </configuration>
 </plugin>
+  <!--<plugin>
+   <groupId>org.apache.maven.plugins</group.Id>
+  <artifactId>maven-jar-plugin</artifatId>
+  <version.3.1.0</version>
+  <configuration>
+  <archive>
+  <manifest>
+  <addClasspath>true</addClasspath>
+  <classpathPrefix>lib/</classpathprefix>
+  <mainClass>Main</mainClass>-->
 </plugins>
 </build>
 </project>
