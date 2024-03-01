@@ -17,16 +17,16 @@
 <artifactId>maven-compiler-plugin</artifactId>
 <version>3.1</version>
 <configuration>
-<archive>
+<!--<archive>
   <manifest>
    <mainClass>Main</mainClass>
   </manifest>
-</archive>
+</archive>-->
 <source>${java.version}</source>
 <target>${java.version}</target>
 </configuration>
 </plugin>
-  <!--<plugin>
+  <plugin>
    <groupId>org.apache.maven.plugins</group.Id>
   <artifactId>maven-jar-plugin</artifatId>
   <version.3.1.0</version>
@@ -35,7 +35,11 @@
   <manifest>
   <addClasspath>true</addClasspath>
   <classpathPrefix>lib/</classpathprefix>
-  <mainClass>Main</mainClass>-->
+  <mainClass>Main</mainClass>
+  </manifest>
+  </archive>
+  </configuration>
+  </plugins>
 </plugins>
 </build>
 </project>
